@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+    background: rgb(64, 240, 202);
+}
+
+.container {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 6px;
+}
+
+
+.header .container {
+    padding: 0 12px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 48px;
+}
+
+.nav .title {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.nav a {
+    font-size: 0.875rem;
+    margin-right: 10px;
+    color: #4299e1;
+    text-decoration: none;
+}
+
+.main {
+    padding-top: 51px;
+}
+.html{
+    text-align: center;
+}
+
+.css-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 20px;
+}
+
+.js-container {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 1fr;
+    gap: 0px 20px;
+}
+.js{
+    padding-top: 50px;
+}
+
+.css {
+    color: blue;
+    font-style: italic;
+    font-size: 20px;
+}
